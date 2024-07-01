@@ -80,7 +80,7 @@ bool insere(LISTA *l, REGISTRO reg, int pos)
         p->prox = novo;
     }
     return true;
-}
+}//oi bruno foi?
 
 bool exclui(LISTA *l, int pos, FILE *historico)
 {
