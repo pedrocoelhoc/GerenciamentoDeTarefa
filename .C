@@ -107,7 +107,7 @@ bool exclui(LISTA *l, int pos, FILE *historico)
     free(apagar);
     return true;
 }
-
+// oiii pedro
 void reinicializarFila(LISTA *l)
 {
     PONT end = l->inicio;
@@ -220,7 +220,7 @@ void menu(LISTA *lista, REGISTRO palavra, FILE *historico)
                 printf(" 1 - Escrever tarefas\n 2 - Modificar alguma tarefa \n 3 - Excluir uma tarefa\n 4 - Imprimir a Lista\n 0 - Sair\n");
                 continue;
             }
-            if (exclui(lista, aux_pos, historico) == false)
+            if (exclui(lista, aux_pos, historico) == false)a
             {
                 printf("Posicaoo invalida. Tente novamente.\n");
             }
